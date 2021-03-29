@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f7f6f7;
+}
+body {
+    background: url("/23A14C0800000578-2855889-An_estimated_120_million_red_crabs_live_on_the_52_square_mile_is-24_1417450599408.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+.container-likes {
+background-color: #333;
+margin:  30px auto;
+width: 500px;
+border: 3px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffc34b;
+    color: #4f9ced;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight:bold;
+    box-shadow: 5px 5px black;
+}
+.cont-top {
+    font-weight:bold;
+}
+
+.cont-top {
+background-color: #333;
+display:flex;
+height: 75px;
+align-items:center;
+justify-content:space-around
+}
+
+.cont-bottom {
+display:flex;
+background-color: #333;
+height: auto;
+}
+.cont-bottom p {
+    margin: 20px;
+}
